@@ -1,0 +1,5 @@
+{
+"items":[
+    {"itemNumber":1,"rackNumber":"R11","size":2,"rackUnits":["RU01","RU02"],"name":"STU-JUMP","category":"Hypervisor","assetTag":"N/A"}
+]
+}

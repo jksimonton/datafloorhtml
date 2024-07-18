@@ -1,0 +1,467 @@
+
+html {
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.datafloor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250pt;
+    height: 670pt;
+
+    border: 1pt solid black;
+    border-radius: 2pt;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 10pt;
+}  
+
+.rack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90pt;
+    height: 60pt;
+
+    border: 1pt solid #727272;
+    border-radius: 2%;
+
+    margin: 2pt;
+
+    font-size: 1.5em;
+}
+
+.rack:hover {
+    width: 92pt;
+    height: 62pt;
+    margin: 1pt;
+
+    font-size: 1.6em;
+
+    background-color: #f7f7f7;
+
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+}
+
+.rack.selected {
+    width: 92pt;
+    height: 62pt;
+    margin: 1pt;
+
+    font-size: 1.6em;
+
+    background-color: #E1F5FE;
+
+    box-shadow: 2px 2px 2px rgb(200, 200, 200);
+}
+
+.rack-internal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 250pt;
+    height: 670pt;
+
+    border: 1pt solid black;
+    border-radius: 2pt;
+}
+
+.rackunit {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+
+    padding-left: 2pt;
+}
+
+.rackunit.empty {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #adadad;
+}
+
+.rackunit:hover {
+    width: 235pt;
+
+    box-shadow: 2px 2px 2px rgb(180, 180, 180);
+}
+
+.rackunit-c01 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #1B5583;
+}
+.rackunit-c02 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #C1876B;
+}
+.rackunit-c03 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #EC7C26;
+}
+.rackunit-c04 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #CF3476;
+}
+.rackunit-c05 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #5D9B9B;
+}
+.rackunit-c06 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #00BB2D;
+}
+.rackunit-c07 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #606E8C;
+}
+.rackunit-c08 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #308446;
+}
+.rackunit-c09 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #F75E25;
+}
+.rackunit-c10 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #EDFF21;
+}
+.rackunit-c11 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #A98307;
+}
+.rackunit-c12 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #015D52;
+}
+.rackunit-c13 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #DE4C8A;
+}
+.rackunit-c14 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #BDECB6;
+}
+.rackunit-c15 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #826C34;
+}
+.rackunit-c16 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #256D7B;
+}
+.rackunit-c17 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+    
+    background-color: #9D9101;
+}
+.rackunit-c18 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #E63244;
+}
+.rackunit-c19 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #49678D;
+}
+.rackunit-c20 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #E1CC4F;
+}
+.rackunit-c21 {
+    display: flex;
+    align-items: center;
+
+    width: 230pt;
+    height: 12pt;
+
+    margin-top: 1pt;
+    margin-bottom: 1pt;
+
+    border: 1pt solid black;
+    border-radius: 1pt;
+    padding-left: 2pt;
+
+    background-color: #F54021;
+}
