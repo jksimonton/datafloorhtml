@@ -2,7 +2,8 @@
 document.addEventListener('DOMContentLoaded', function () {
     'use strict';
 
-    sessionStorage.setItem('Last Selected Item', "")
+    sessionStorage.setItem('Last Selected Rack', "")
+    sessionStorage.setItem('Last Selected Unit', "")
 
     document.getElementById("info-status").innerHTML = "Select a Rack...";
 
@@ -11,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function selectRack (element) {
     
-    let lastSelected = sessionStorage.getItem('Last Selected Item');
+    let lastSelected = sessionStorage.getItem('Last Selected Rack');
 
     if (lastSelected === "") {}
     else {
@@ -20,7 +21,7 @@ function selectRack (element) {
     }
 
     element.classList.toggle('selected');
-    sessionStorage.setItem('Last Selected Item', element.id);
+    sessionStorage.setItem('Last Selected Rack', element.id);
 
     document.getElementById("info-status").innerHTML = "Select a Unit...";
 
@@ -54,5 +55,8 @@ function selectRack (element) {
 
 function selectUnit (element) {
 
-
+    if (sessionStorage.getItem('Last Selected Rack') == "") {}
+    else {
+        
+    }
 }
