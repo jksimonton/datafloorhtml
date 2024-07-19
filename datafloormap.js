@@ -12,11 +12,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
 function selectRack (element) {
     
-    let lastSelected = sessionStorage.getItem('Last Selected Rack');
+    
 
-    if (lastSelected === "") {}
+    if (sessionStorage.getItem('Last Selected Rack') == "") {}
     else {
-        lastSelected = document.getElementById(lastSelected);
+        lastSelected = document.getElementById(sessionStorage.getItem('Last Selected Rack'));
         lastSelected.classList.toggle('selected');
     }
 
@@ -57,6 +57,10 @@ function selectUnit (element) {
 
     if (sessionStorage.getItem('Last Selected Rack') == "") {}
     else {
-        
+        if (sessionStorage.getItem('Last Selected Unit') == ""){}
+        else {
+            lastSelected = document.getElementById(sessionStorage.getItem('Last Selected Unit'));
+            
+        }
     }
 }
