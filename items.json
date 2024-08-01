@@ -1,5 +1,12 @@
 {
 "items":[
-    {"itemNumber":1,"rackNumber":"R11","size":2,"rackUnits":["RU01","RU02"],"name":"STU-JUMP","category":"Hypervisor","assetTag":"N/A"}
+    {"itemNumber":1,"rackNumber":"R11","size":2,"rackUnits":["RU01","RU02"],"name":"STU-JUMP","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":2,"rackNumber":"R13","size":2,"rackUnits":["RU13","RU14"],"name":"VXRAIL01-01","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":3,"rackNumber":"R13","size":2,"rackUnits":["RU15","RU16"],"name":"VXRAIL01-02","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":4,"rackNumber":"R13","size":2,"rackUnits":["RU17","RU18"],"name":"VXRAIL01-03","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":5,"rackNumber":"R13","size":2,"rackUnits":["RU19","RU20"],"name":"VXRAIL01-04","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":6,"rackNumber":"R13","size":2,"rackUnits":["RU21","RU22"],"name":"VXRAIL01-05","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":7,"rackNumber":"R13","size":1,"rackUnits":["RU31"],"name":"Test Cluster","category":"Hypervisor","assetTag":"N/A"},
+    {"itemNumber":8,"rackNumber":"R13","size":1,"rackUnits":["RU32"],"name":"Test Cluster","category":"Hypervisor","assetTag":"N/A"}
 ]
 }
